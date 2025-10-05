@@ -1,0 +1,116 @@
+.card{
+    height: 72.5%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    background-image: url("../../assets/intiald.png");
+    background-repeat: no-repeat;
+    background-position: start;
+    background-size: contain;
+    border: 0;
+    outline: 2px solid black;
+    box-shadow: 0 0 30px red;
+}
+
+.title {
+    height: 10%;
+    width: 80%;
+    margin: 0;
+    margin-top: 2%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.8);
+    outline: 1px solid black;
+    border-radius: 20px;
+    font-size: 30px;
+    text-shadow: 0 0 20px black;
+    box-shadow: 0 0 20px black;
+}
+
+.bottomCard {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagem {
+    border: 1px solid black;
+    border-radius: 90px;
+    box-shadow: 0 0 40px black;
+}
+
+.name {
+
+    font-size: 23px;
+}
+
+.text {
+    height: 10%;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.divText {
+    height: 70%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    outline: 1px solid black;
+    border-radius: 20px;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(1px);
+    box-shadow: 0 0 20px black;
+    text-shadow: 0 0 8px black;
+}
+
+.divButton {
+    height: 28%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    height: 40%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border-radius: 20px;
+    outline: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(1px);
+    text-decoration: none;
+    box-shadow: 0 0 10px red;
+    transition: transform 0.3s ease-in-out;
+}
+
+.button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px red;
+}
+
+
+@media (max-width: 576px){
+    .card {
+        height: 80%;
+        width: 97%;
+    }
+}
